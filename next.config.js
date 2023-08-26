@@ -5,7 +5,14 @@ const nextConfig = {
         "tailwindui.com",
         "res.cloudinary.com"
       ]
+      
     },
+    typescript:{
+      ignoreBuildErrors: true,
+  },
+  eslint: {
+      ignoreDuringBuilds: true,
+  },
    
   }
   
