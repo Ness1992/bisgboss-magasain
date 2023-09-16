@@ -16,12 +16,12 @@ const Summary = () => {
 
   useEffect(() => {
     if (searchParams.get('success')) {
-      toast.success('Payment completed.');
+      toast.success('Paiement effectué.');
       removeAll();
     }
 
     if (searchParams.get('canceled')) {
-      toast.error('Something went wrong.');
+      toast.error('Quelque chose sest mal passé.');
     }
   }, [searchParams, removeAll]);
 
